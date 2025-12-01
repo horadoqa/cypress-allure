@@ -8,7 +8,7 @@ describe('Login via API', () => {
           'Content-Type': 'application/json'
         },
         body: {
-          email: "horadoqa@qa.com.br",
+          email: "horadoqa2@qa.com.br",
           password: "horadoqa"
         }
       }).then((response) => {

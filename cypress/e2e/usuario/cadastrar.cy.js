@@ -8,8 +8,8 @@ describe('Criar usuário via API', () => {
           'Content-Type': 'application/json'
         },
         body: {
-          nome: "Hora do QA",
-          email: "horadoqa@qa.com.br",
+          nome: "Hora do QA 2",
+          email: "horadoqa2@qa.com.br",
           password: "horadoqa",
           administrador: "true"
         }
