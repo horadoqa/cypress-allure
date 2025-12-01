@@ -42,10 +42,10 @@ jobs:
               env:
                   CYPRESS_PARALLEL_SPEC_API_KEY: '${{ secrets.PARALLEL_SPEC_API_KEY }}'
 
-            - name: Run Cypress Cucumber
+            - name: Run Cypress
               continue-on-error: true
               if: always()
-              run: npm run cy:cucumber:run
+              run: npm run cy:run
 
             - name: Get Allure history
               uses: actions/checkout@v4
