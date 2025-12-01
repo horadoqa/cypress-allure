@@ -5,5 +5,5 @@
         "types": ["cypress", "@shelex/cypress-allure-plugin/reporter"],
         "noEmit": true
     },
-    "include": ["**/*.*"]
+    "include": ["**/*.*", "e2e/usuario/login"]
 }
