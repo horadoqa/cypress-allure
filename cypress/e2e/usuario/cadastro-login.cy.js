@@ -1,14 +1,15 @@
-describe('Fluxo encadeado', () => {
+describe('Cenário 2 - Cadastro → Login', () => {
 
     it('Cadastro → Login', () => {
   
-      // Primeiro: Cadastro
+      // 1️⃣ Cadastro do usuário
+      const emailUnico = `horadoqa${Date.now()}@qa.com.br`
       cy.request({
         method: 'POST',
         url: 'https://serverest.dev/usuarios',
         body: {
           nome: "Hora do QA",
-          email: "horadoqa@qa.com.br",
+          email: emailUnico,
           password: "horadoqa",
           administrador: "true"
         }
@@ -19,7 +20,7 @@ describe('Fluxo encadeado', () => {
         expect(responseCadastro.body).to.have.property('message', 'Cadastro realizado com sucesso')
         expect(responseCadastro.body).to.have.property('_id')
   
-        // Depois: Login
+        // 2️⃣ Login do usuário
         cy.request({
           method: 'POST',
           url: 'https://serverest.dev/login',

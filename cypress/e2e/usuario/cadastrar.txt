@@ -1,5 +1,8 @@
-describe('Criar usuário via API', () => {
+describe('Cenário 1 - Cadastrar usuário', () => {
     it('Deve criar um novo usuário', () => {
+
+      // 1️⃣ Cadastro do usuário
+      const emailUnico = `horadoqa${Date.now()}@qa.com.br`
       cy.request({
         method: 'POST',
         url: 'https://serverest.dev/usuarios',
@@ -8,8 +11,8 @@ describe('Criar usuário via API', () => {
           'Content-Type': 'application/json'
         },
         body: {
-          nome: "Hora do QA 2",
-          email: "horadoqa2@qa.com.br",
+          nome: "Hora do QA",
+          email: emailUnico,
           password: "horadoqa",
           administrador: "true"
         }
