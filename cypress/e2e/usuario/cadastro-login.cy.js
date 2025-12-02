@@ -1,4 +1,4 @@
-describe('Cenário 2 - Cadastro → Login', () => {
+describe('Cenário 3 - Cadastro e Login', () => {
 
     it('Cadastro → Login', () => {
   

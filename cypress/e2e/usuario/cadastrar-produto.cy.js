@@ -1,4 +1,4 @@
-describe('Fluxo encadeado: Cadastro → Login → Cadastro de Produto', () => {
+describe('Cenário 4 - Cadastrar Produto', () => {
 
     it('Cadastra usuário, faz login e cadastra produto', () => {
   

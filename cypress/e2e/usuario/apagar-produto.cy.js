@@ -1,4 +1,4 @@
-describe('Fluxo encadeado: Cadastro → Login → Cadastro de Produto → Deleção de Produto', () => {
+describe('Cenário 5 - Apagar Produto', () => {
 
     it('Cadastra usuário, loga, cria produto e deleta produto', () => {
   

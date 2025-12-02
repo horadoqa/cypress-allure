@@ -1,4 +1,4 @@
-describe('Login via API', () => {
+describe('Cenário 2 - Login', () => {
     it('Deve realizar login com sucesso', () => {
       cy.request({
         method: 'POST',

@@ -2,7 +2,6 @@ describe('Cenário 1 - Cadastrar usuário', () => {
     it('Deve criar um novo usuário', () => {
 
       // 1️⃣ Cadastro do usuário
-      const emailUnico = `horadoqa${Date.now()}@qa.com.br`
       cy.request({
         method: 'POST',
         url: 'https://serverest.dev/usuarios',
@@ -12,7 +11,7 @@ describe('Cenário 1 - Cadastrar usuário', () => {
         },
         body: {
           nome: "Hora do QA",
-          email: emailUnico,
+          email: "horadoqa@qa.com.br",
           password: "horadoqa",
           administrador: "true"
         }
