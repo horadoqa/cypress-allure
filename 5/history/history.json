@@ -1,1 +1,0 @@
-{"d0b347ee96b0963f7e99c65aaa68fbec":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"403eab8f30e78f4b","reportUrl":"https://horadoqa.github.io/cypress-allure/5/#testresult/403eab8f30e78f4b","status":"passed","time":{"start":1764598476116,"stop":1764598476537,"duration":421}}]}}
