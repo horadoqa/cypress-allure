@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","195","Cadastro → Login","","Tue Dec 02 09:25:05 UTC 2025","passed","Tue Dec 02 09:25:05 UTC 2025","","Fluxo encadeado","",""
-"","513","Deve criar um novo usuário","","Tue Dec 02 09:25:03 UTC 2025","passed","Tue Dec 02 09:25:03 UTC 2025","","Criar usuário via API","",""
-"","101","Deve realizar login com sucesso","","Tue Dec 02 09:25:07 UTC 2025","passed","Tue Dec 02 09:25:07 UTC 2025","","Login via API","",""
