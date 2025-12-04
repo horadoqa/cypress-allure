@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","96","Deve realizar login com sucesso","","Tue Dec 02 13:40:30 UTC 2025","passed","Tue Dec 02 13:40:30 UTC 2025","","Login via API","",""
-"","175","Cadastro → Login","","Tue Dec 02 13:40:28 UTC 2025","passed","Tue Dec 02 13:40:28 UTC 2025","","Fluxo encadeado","",""
-"","102","Deve criar um novo usuário","","Tue Dec 02 13:40:26 UTC 2025","passed","Tue Dec 02 13:40:26 UTC 2025","","Criar usuário via API","",""
-"","499","Cadastra usuário, loga, cria produto e deleta produto","","Tue Dec 02 13:40:22 UTC 2025","passed","Tue Dec 02 13:40:22 UTC 2025","","Fluxo encadeado: Cadastro → Login → Cadastro de Produto → Deleção de Produto","",""
-"","318","Cadastro de usuário, login e cadastro de produto","","Tue Dec 02 13:40:24 UTC 2025","failed","Tue Dec 02 13:40:25 UTC 2025","","Fluxo encadeado: Cadastro → Login → Cadastro de Produto","",""
