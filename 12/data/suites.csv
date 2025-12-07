@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","120","Deve realizar login com sucesso","","Tue Dec 02 14:06:05 UTC 2025","passed","Tue Dec 02 14:06:05 UTC 2025","","Cenário 2 - Login","",""
-"","219","Cadastro → Login","","Tue Dec 02 14:06:03 UTC 2025","passed","Tue Dec 02 14:06:03 UTC 2025","","Cenário 3 - Cadastro e Login","",""
-"","320","Cadastra usuário, faz login e cadastra produto","","Tue Dec 02 14:05:59 UTC 2025","passed","Tue Dec 02 14:05:59 UTC 2025","","Cenário 4 - Cadastrar Produto","",""
-"","592","Cadastra usuário, loga, cria produto e deleta produto","","Tue Dec 02 14:05:56 UTC 2025","passed","Tue Dec 02 14:05:57 UTC 2025","","Cenário 5 - Apagar Produto","",""
-"","246","Deve criar um novo usuário","","Tue Dec 02 14:06:01 UTC 2025","failed","Tue Dec 02 14:06:01 UTC 2025","","Cenário 1 - Cadastrar usuário","",""
