@@ -1,8 +1,11 @@
 const allure = Cypress.Allure.reporter.getInterface();
 
 describe('Cenário 2 - Apagar Produto', () => {
+  
+  llure.feature('Produto');
+  allure.story('Excluir de produto');
 
-    it('Cadastra usuário, loga, cria produto e deleta produto', () => {
+  it('Cadastra usuário, loga, cria produto e deleta produto', () => {
   
       // 1️⃣ Cadastro do usuário
       const emailUnico = `horadoqa${Date.now()}@qa.com.br`

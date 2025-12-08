@@ -2,7 +2,10 @@ const allure = Cypress.Allure.reporter.getInterface();
 
 describe('Cenário 1 - Cadastrar Produto', () => {
 
-    it('Cadastra usuário, faz login e cadastra produto', () => {
+  allure.feature('Produto');
+  allure.story('Cadastro de produto');
+  
+  it('Cadastra usuário, faz login e cadastra produto', () => {
   
       // Variável para email único
       const emailUsuario = `horadoqa${Date.now()}@qa.com.br`;

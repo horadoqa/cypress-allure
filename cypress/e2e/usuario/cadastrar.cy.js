@@ -1,7 +1,10 @@
 const allure = Cypress.Allure.reporter.getInterface();
 
 describe('Cenário 1 - Cadastrar usuário', () => {
-    it('Deve criar um novo usuário', () => {
+  allure.feature('Usuário');
+  allure.story('Cadastro');
+  
+  it('Deve criar um novo usuário', () => {
 
       // 1️⃣ Cadastro do usuário
       cy.request({

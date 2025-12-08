@@ -2,6 +2,9 @@ const allure = Cypress.Allure.reporter.getInterface();
 
 describe('Cenário 3 - Cadastro, Login, Atualização e Exclusão', () => {
 
+  allure.feature('Usuário');
+  allure.story('Fluxo Completo');
+  
   it('Cadastro → Login → Atualizar nome → Deletar usuário', () => {
 
     // 1️⃣ Cadastro do usuário

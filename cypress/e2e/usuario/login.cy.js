@@ -1,7 +1,10 @@
 const allure = Cypress.Allure.reporter.getInterface();
 
 describe('Cenário 2 - Login', () => {
-    it('Deve realizar login com sucesso', () => {
+  allure.feature('Usuário');
+  allure.story('Login');
+  
+  it('Deve realizar login com sucesso', () => {
       cy.request({
         method: 'POST',
         url: 'https://serverest.dev/login',
