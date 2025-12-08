@@ -1,10 +1,10 @@
 const allure = Cypress.Allure.reporter.getInterface();
 
-describe('Cenário 1 - HealthCheck', () => {
+describe('HealthCheck', () => {
 
     allure.feature('API');
     allure.story('Healthcheck');
-    
+
     it('should return 200 OK when accessing serverest.dev', () => {
       cy.request({
         method: 'GET',

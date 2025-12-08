@@ -1,6 +1,6 @@
 const allure = Cypress.Allure.reporter.getInterface();
 
-describe('Cenário 3 - Cadastro, Login, Atualização e Exclusão', () => {
+describe('Cadastro, Login, Atualização e Exclusão', () => {
 
   allure.feature('Usuário');
   allure.story('Fluxo Completo');

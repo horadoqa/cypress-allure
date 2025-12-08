@@ -1,8 +1,8 @@
 const allure = Cypress.Allure.reporter.getInterface();
 
-describe('Cenário 2 - Apagar Produto', () => {
+describe('Apagar Produto', () => {
   
-  llure.feature('Produto');
+  allure.feature('Produto');
   allure.story('Excluir de produto');
 
   it('Cadastra usuário, loga, cria produto e deleta produto', () => {

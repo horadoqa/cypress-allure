@@ -1,6 +1,6 @@
 const allure = Cypress.Allure.reporter.getInterface();
 
-describe('Cenário 2 - Login', () => {
+describe('Login', () => {
   allure.feature('Usuário');
   allure.story('Login');
   

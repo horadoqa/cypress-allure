@@ -1,6 +1,6 @@
 const allure = Cypress.Allure.reporter.getInterface();
 
-describe('Cenário 1 - Cadastrar Produto', () => {
+describe('Cadastrar Produto', () => {
 
   allure.feature('Produto');
   allure.story('Cadastro de produto');
