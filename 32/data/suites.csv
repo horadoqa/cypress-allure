@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","96","Deve realizar login com sucesso","","Mon Dec 08 20:35:38 UTC 2025","passed","Mon Dec 08 20:35:38 UTC 2025","","Cenário 2 - Login","",""
+"","385","Cadastro → Login → Atualizar nome → Deletar usuário","","Mon Dec 08 20:35:36 UTC 2025","passed","Mon Dec 08 20:35:36 UTC 2025","","Cenário 3 - Cadastro, Login, Atualização e Exclusão","",""
+"","96","Deve criar um novo usuário","","Mon Dec 08 20:35:34 UTC 2025","passed","Mon Dec 08 20:35:34 UTC 2025","","Cenário 1 - Cadastrar usuário","",""
+"","148","An uncaught error was detected outside of a test","","Mon Dec 08 20:35:32 UTC 2025","failed","Mon Dec 08 20:35:32 UTC 2025","","","",""
+"","276","Cadastra usuário, faz login e cadastra produto","","Mon Dec 08 20:35:29 UTC 2025","passed","Mon Dec 08 20:35:30 UTC 2025","","Cenário 1 - Cadastrar Produto","",""
+"","322","should return 200 OK when accessing serverest.dev","","Mon Dec 08 20:35:27 UTC 2025","passed","Mon Dec 08 20:35:28 UTC 2025","","Cenário 1 - HealthCheck","",""
