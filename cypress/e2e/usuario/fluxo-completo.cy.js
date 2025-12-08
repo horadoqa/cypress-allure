@@ -5,7 +5,7 @@ describe('Cadastro, Login, Atualização e Exclusão', () => {
   allure.feature('Usuário');
   allure.story('Fluxo Completo');
   
-  it('Cadastro → Login → Atualizar nome → Deletar usuário', () => {
+  it('Fluxo completo usuário', () => {
 
     // 1️⃣ Cadastro do usuário
     const emailUnico = `horadoqa${Date.now()}@qa.com.br`;
