@@ -11,8 +11,8 @@ describe('Cenário 1 - Cadastrar usuário', () => {
         },
         body: {
           nome: "Hora do QA",
-          email: "horadoqa@qa.com.br",
-          password: "horadoqa",
+          email: Cypress.env('userEmail'),
+          password: Cypress.env('userPassword'),
           administrador: "true"
         }
       }).then((response) => {
