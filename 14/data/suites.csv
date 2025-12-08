@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","118","Cadastro → Login","","Wed Dec 03 12:28:49 UTC 2025","passed","Wed Dec 03 12:28:49 UTC 2025","","Cenário 3 - Cadastro e Login","",""
-"","67","Deve realizar login com sucesso","","Wed Dec 03 12:28:53 UTC 2025","passed","Wed Dec 03 12:28:53 UTC 2025","","Cenário 2 - Login","",""
-"","66","Deve criar um novo usuário","","Wed Dec 03 12:28:48 UTC 2025","passed","Wed Dec 03 12:28:48 UTC 2025","","Cenário 1 - Cadastrar usuário","",""
-"","244","Cadastra usuário, faz login e cadastra produto","","Wed Dec 03 12:28:46 UTC 2025","passed","Wed Dec 03 12:28:46 UTC 2025","","Cenário 4 - Cadastrar Produto","",""
-"","327","Cadastra usuário, loga, cria produto e deleta produto","","Wed Dec 03 12:28:43 UTC 2025","passed","Wed Dec 03 12:28:44 UTC 2025","","Cenário 5 - Apagar Produto","",""
-"","62","should return 200 OK when accessing serverest.dev","","Wed Dec 03 12:28:51 UTC 2025","passed","Wed Dec 03 12:28:51 UTC 2025","","Serverest.dev health check","",""
