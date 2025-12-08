@@ -1,4 +1,6 @@
-describe('Cenário 4 - Cadastrar Produto', () => {
+const allure = Cypress.Allure.reporter.getInterface();
+
+describe('Cenário 1 - Cadastrar Produto', () => {
 
     it('Cadastra usuário, faz login e cadastra produto', () => {
   

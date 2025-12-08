@@ -1,4 +1,6 @@
-describe('Cenário 5 - Apagar Produto', () => {
+const allure = Cypress.Allure.reporter.getInterface();
+
+describe('Cenário 2 - Apagar Produto', () => {
 
     it('Cadastra usuário, loga, cria produto e deleta produto', () => {
   

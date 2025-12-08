@@ -1,3 +1,5 @@
+const allure = Cypress.Allure.reporter.getInterface();
+
 describe('Cenário 2 - Login', () => {
     it('Deve realizar login com sucesso', () => {
       cy.request({
