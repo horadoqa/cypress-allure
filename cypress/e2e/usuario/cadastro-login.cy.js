@@ -10,7 +10,7 @@ describe('Cenário 3 - Cadastro e Login', () => {
         body: {
           nome: "Hora do QA",
           email: emailUnico,
-          password: "horadoqa",
+          password: Cypress.env('userPassword'),
           administrador: "true"
         }
       }).then((responseCadastro) => {
@@ -25,8 +25,8 @@ describe('Cenário 3 - Cadastro e Login', () => {
           method: 'POST',
           url: 'https://serverest.dev/login',
           body: {
-            email: "horadoqa@qa.com.br",
-            password: "horadoqa"
+            email: emailUnico,
+            password: Cypress.env('userPassword')
           }
         }).then((responseLogin) => {
   
@@ -40,4 +40,6 @@ describe('Cenário 3 - Cadastro e Login', () => {
     })
   
   })
+  
+
   
