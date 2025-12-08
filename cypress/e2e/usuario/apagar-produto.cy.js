@@ -10,7 +10,7 @@ describe('Cenário 5 - Apagar Produto', () => {
         body: {
           nome: "Hora do QA",
           email: emailUnico,
-          password: "horadoqa",
+          password: Cypress.env('userPassword'),
           administrador: "true"
         }
       }).then((responseCadastro) => {
@@ -24,7 +24,7 @@ describe('Cenário 5 - Apagar Produto', () => {
           url: 'https://serverest.dev/login',
           body: {
             email: emailUnico,
-            password: "horadoqa"
+            password: Cypress.env('userPassword')
           }
         }).then((responseLogin) => {
           expect(responseLogin.status).to.eq(200)
