@@ -8,8 +8,8 @@ describe('Cenário 2 - Login', () => {
           'Content-Type': 'application/json'
         },
         body: {
-          email: "horadoqa@qa.com.br",
-          password: "horadoqa"
+          email: Cypress.env('userEmail'),
+          password: Cypress.env('userPassword')
         }
       }).then((response) => {
         expect(response.status).to.eq(200)
