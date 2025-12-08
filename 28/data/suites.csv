@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","93","Deve realizar login com sucesso","","Mon Dec 08 20:03:41 UTC 2025","passed","Mon Dec 08 20:03:41 UTC 2025","","Cenário 2 - Login","",""
+"","338","Cadastro → Login → Atualizar nome → Deletar usuário","","Mon Dec 08 20:03:39 UTC 2025","passed","Mon Dec 08 20:03:39 UTC 2025","","Cenário 3 - Cadastro, Login, Atualização e Exclusão","",""
+"","228","Deve criar um novo usuário","","Mon Dec 08 20:03:37 UTC 2025","passed","Mon Dec 08 20:03:37 UTC 2025","","Cenário 1 - Cadastrar usuário","",""
