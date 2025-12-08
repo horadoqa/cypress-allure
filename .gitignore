@@ -6,3 +6,4 @@ cypress/videos/
 cypress/results/
 node_modules/
 allure-results
+cypress.env.json
