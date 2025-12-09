@@ -7,7 +7,7 @@ describe('Login', () => {
   it('Deve realizar login com sucesso', () => {
       cy.request({
         method: 'POST',
-        url: 'https://serverest.dev/login',
+        url: `${Cypress.env('url')}/login`,
         headers: {
           accept: 'application/json',
           'Content-Type': 'application/json'

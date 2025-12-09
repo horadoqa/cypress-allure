@@ -13,7 +13,7 @@ describe('Cadastrar Produto', () => {
       // 1️⃣ Cadastro do usuário
       cy.request({
         method: 'POST',
-        url: 'https://serverest.dev/usuarios',
+        url: `${Cypress.env('url')}/usuarios`,
         body: {
           nome: "Hora do QA",
           email: emailUsuario,
@@ -30,7 +30,7 @@ describe('Cadastrar Produto', () => {
         // 2️⃣ Login do usuário
         cy.request({
           method: 'POST',
-          url: 'https://serverest.dev/login',
+          url: `${Cypress.env('url')}/login`,
           body: {
             email: emailUsuario, // usa o mesmo email do cadastro
             password: "horadoqa"
@@ -49,7 +49,7 @@ describe('Cadastrar Produto', () => {
   
           cy.request({
             method: 'POST',
-            url: 'https://serverest.dev/produtos',
+            url: `${Cypress.env('url')}/produtos`,
             headers: {
               Authorization: token
             },

@@ -12,7 +12,7 @@ describe('Cadastro, Login, Atualização e Exclusão', () => {
 
     cy.request({
       method: 'POST',
-      url: 'https://serverest.dev/usuarios',
+      url: `${Cypress.env('url')}/usuarios`,
       body: {
         nome: "Hora do QA",
         email: emailUnico,
@@ -31,7 +31,7 @@ describe('Cadastro, Login, Atualização e Exclusão', () => {
       // 2️⃣ Login do usuário
       cy.request({
         method: 'POST',
-        url: 'https://serverest.dev/login',
+        url: `${Cypress.env('url')}/login`,
         body: {
           email: emailUnico,
           password: Cypress.env('userPassword')
@@ -46,7 +46,7 @@ describe('Cadastro, Login, Atualização e Exclusão', () => {
         // 3️⃣ Atualizar nome do usuário via PUT
         cy.request({
           method: 'PUT',
-          url: `https://serverest.dev/usuarios/${userId}`,
+          url: `${Cypress.env('url')}/usuarios/${userId}`,
           body: {
             nome: "Hora do QA",
             email: emailUnico,
@@ -62,7 +62,7 @@ describe('Cadastro, Login, Atualização e Exclusão', () => {
           // 4️⃣ Deletar usuário cadastrado → DELETE
           cy.request({
             method: 'DELETE',
-            url: `https://serverest.dev/usuarios/${userId}`
+            url: `${Cypress.env('url')}/usuarios/${userId}`
           }).then((responseDelete) => {
 
             // 📌 EXPECTS DO DELETE

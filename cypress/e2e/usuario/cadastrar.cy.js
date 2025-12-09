@@ -9,7 +9,7 @@ describe('Cadastrar usuário', () => {
       // 1️⃣ Cadastro do usuário
       cy.request({
         method: 'POST',
-        url: 'https://serverest.dev/usuarios',
+        url: `${Cypress.env('url')}/usuarios`,
         headers: {
           accept: 'application/json',
           'Content-Type': 'application/json'

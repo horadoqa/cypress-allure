@@ -10,7 +10,7 @@ describe('Login Inválido', () => {
   it('Não deve realizar login', () => {
     cy.request({
       method: 'POST',
-      url: 'https://serverest.dev/login',
+      url: `${Cypress.env('url')}/login`,
       failOnStatusCode: false,   // importante para permitir 401
       headers: {
         accept: 'application/json',

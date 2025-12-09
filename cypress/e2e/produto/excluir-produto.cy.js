@@ -11,7 +11,7 @@ describe('Apagar Produto', () => {
       const emailUnico = `horadoqa${Date.now()}@qa.com.br`
       cy.request({
         method: 'POST',
-        url: 'https://serverest.dev/usuarios',
+        url: `${Cypress.env('url')}/usuarios`,
         body: {
           nome: "Hora do QA",
           email: emailUnico,
@@ -26,7 +26,7 @@ describe('Apagar Produto', () => {
         // 2️⃣ Login do usuário
         cy.request({
           method: 'POST',
-          url: 'https://serverest.dev/login',
+          url: `${Cypress.env('url')}/login`,
           body: {
             email: emailUnico,
             password: Cypress.env('userPassword')
@@ -42,7 +42,7 @@ describe('Apagar Produto', () => {
           const nomeProdutoUnico = `Logitech MX Vertical - ${Date.now()}`
           cy.request({
             method: 'POST',
-            url: 'https://serverest.dev/produtos',
+            url: `${Cypress.env('url')}/produtos`,
             headers: {
               Authorization: token
             },
@@ -62,7 +62,7 @@ describe('Apagar Produto', () => {
             // 4️⃣ Deleção do produto
             cy.request({
               method: 'DELETE',
-              url: `https://serverest.dev/produtos/${produtoId}`,
+              url: `${Cypress.env('url')}/produtos/${produtoId}`,
               headers: {
                 Authorization: token
               }
