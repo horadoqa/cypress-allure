@@ -18,7 +18,7 @@ describe('Login Inválido', () => {
       },
       body: {
         email: Cypress.env('emailInvalido'),
-        password: Cypress.env('userPassword')
+        password: Cypress.env('passwordInvalido')
       }
     }).then((response) => {
       expect(response.status).to.eq(401);
