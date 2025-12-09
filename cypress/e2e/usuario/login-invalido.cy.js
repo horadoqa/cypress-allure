@@ -1,0 +1,29 @@
+const allure = Cypress.Allure.reporter.getInterface();
+
+describe('Login Inválido', () => {
+  
+  before(() => {
+    allure.feature('Usuário');
+    allure.story('Login');
+  });
+  
+  it('Não deve realizar login', () => {
+      cy.request({
+        method: 'POST',
+        url: 'https://serverest.dev/login',
+        failOnStatusCode: false, // importante para permitir 401
+        headers: {
+          accept: 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: {
+          email: Cypress.env('emailInvalido'),
+          password: Cypress.env('userPassword')
+        }
+      }).then((response) => {
+        expect(response.status).to.eq(401)
+        expect(response.body).to.have.property('message', 'E-mail e/ou senha inválidos')
+      })
+    })
+  })
+  
