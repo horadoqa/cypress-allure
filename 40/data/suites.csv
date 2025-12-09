@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","256","should return 200 OK when accessing serverest.dev","","Tue Dec 09 13:46:49 UTC 2025","passed","Tue Dec 09 13:46:50 UTC 2025","","HealthCheck","",""
+"","90","Deve realizar login com sucesso","","Tue Dec 09 13:47:02 UTC 2025","passed","Tue Dec 09 13:47:02 UTC 2025","","Login","",""
+"","196","Cadastra usuário, faz login e cadastra produto","","Tue Dec 09 13:46:51 UTC 2025","passed","Tue Dec 09 13:46:52 UTC 2025","","Cadastrar Produto","",""
+"","262","Fluxo completo usuário","","Tue Dec 09 13:46:58 UTC 2025","passed","Tue Dec 09 13:46:58 UTC 2025","","Cadastro, Login, Atualização e Exclusão","",""
+"","292","Cadastra usuário, loga, cria produto e deleta produto","","Tue Dec 09 13:46:54 UTC 2025","passed","Tue Dec 09 13:46:54 UTC 2025","","Apagar Produto","",""
+"","263","Deve criar um novo usuário","","Tue Dec 09 13:46:56 UTC 2025","failed","Tue Dec 09 13:46:56 UTC 2025","","Cadastrar usuário","",""
+"","80","Não deve realizar login","","Tue Dec 09 13:47:00 UTC 2025","passed","Tue Dec 09 13:47:00 UTC 2025","","Login Inválido","",""
